@@ -1,0 +1,87 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 20px;
+    font-family: Arial, sans-serif; /* Добавил нормальный шрифт, чтобы читалось лучше */
+}
+
+h1 {
+    color: #ffd700;
+    font-size: 2.2em;
+    text-shadow: 2px 2px 8px #ffd700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* --- ГЛАВНЫЕ ИЗМЕНЕНИЯ ЗДЕСЬ --- */
+.movie-card {
+    width: 600px;         /* Ширина карточки (чтобы поместился текст и картинка) */
+    margin: 0 auto 20px;  /* 0 сверху, auto по центру, 20px снизу */
+    padding: 20px;
+    background-color: #1e1e1e;
+    border: 2px solid #ffd700;
+    border-radius: 15px;
+    
+    /* Включаем Flexbox для расположения в ряд */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;            /* Расстояние между текстом и картинкой */
+} 
+
+.movie-info {
+    flex: 1;              /* Текст занимает всё свободное место */
+}
+
+.movie-card h2 {
+    color: #ffffff;
+    font-size: 1.6em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.year {
+    color: #ffd700;
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #b0b0b0;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: justify; /* Выравнивание по ширине только для текста */
+    margin: 0;
+}
+
+.movie-poster {
+    width: 180px;         /* Ширина картинки */
+    height: auto;         /* Высота подстроится сама */
+    border-radius: 10px;  /* Скругление углов картинки */
+}
+
+.movie-card:hover {
+    border-color: #e50914;
+    background-color: #252525;
+    cursor: pointer;
+}
+
+.btn-top {
+    display: block;       /* Чтобы кнопка стала блочной и ее можно было выровнять */
+    width: 100px;
+    margin: 40px auto 20px; /* Выравнивание кнопки по центру */
+    color: #fff;
+    background-color: #e50914;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-top:hover {
+    background-color: #ffd700;
+    color: #121212;
+}
