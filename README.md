@@ -15,5 +15,5 @@
 - Работать с якорями для кнопки «Наверх»
 
 ## Как посмотреть
-- [Открыть index.html](https://github.com/insafhalilov0-lab/cinema-poster/blob/practic.html)
-- [Открыть practic.css](https://github.com/insafhalilov0-lab/cinema-poster/blob/practic.css)
+- [Открыть index.html](https://github.com/insafhalilov0-lab/cinema-poster/blob/main/practic.html)
+- [Открыть practic.css](https://github.com/insafhalilov0-lab/cinema-poster/blob/main/practic.css)
